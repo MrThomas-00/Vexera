@@ -2,6 +2,7 @@ import Button from '../components/Button'
 import HeroImg from '/Heros.png'
 import MainSection from '../components/mainsection'
 import AboutSection from '../components/Aboutsection'
+import Ranks from '../components/Ranks'
 
 export default function Home() {
   return (
@@ -79,6 +80,7 @@ export default function Home() {
       </section>
 
       <MainSection />
+      <Ranks />
       <AboutSection />
     </main>
   )
