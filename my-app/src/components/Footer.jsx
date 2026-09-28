@@ -177,10 +177,11 @@ export default function Footer() {
               style={{ clipPath: 'polygon(14% 0, 100% 0, 100% 100%, 0 100%)' }}
             >
               <video
-                src="./footer.mp4"
+                src="/Footer.mp4"
                 muted
                 autoPlay
                 loop
+                playsInline
                 alt=""
                 className="h-full w-full object-cover"
                 style={{ animation: 'vox-zoom 20s ease-in-out infinite alternate' }}
