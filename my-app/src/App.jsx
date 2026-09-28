@@ -8,27 +8,31 @@ import Blog from './pages/Blog'
 import Wiki from './pages/Wiki'
 import Download from './pages/Download'
 import NotFound from './pages/NotFound'
+import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
   return (
-    <LoadingScreen>
-          <BrowserRouter>
-            <div className="min-h-screen flex flex-col">
-              <Header />
+<LoadingScreen>
+  <BrowserRouter>
+    <ScrollToTop />
 
-          <main className="flex-1">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/store" element={<Store />} />
-              <Route path="/blog" element={<Blog />} />
-              <Route path="/wiki" element={<Wiki />} />
-              <Route path="/download" element={<Download />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </main>
-          <Footer />
-        </div>
-      </BrowserRouter>
-    </LoadingScreen>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+
+      <main className="flex-1">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/wiki" element={<Wiki />} />
+          <Route path="/download" element={<Download />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+
+      <Footer />
+    </div>
+  </BrowserRouter>
+</LoadingScreen>
   )
 }

@@ -315,7 +315,7 @@ export default function RankCarousel() {
   }, [])
 
   return (
-    <section dir="rtl" className="relative overflow-hidden bg-[#030B18] px-6 py-20 sm:px-10 sm:py-28">
+    <section dir="rtl" className="relative overflow-hidden bg-[#030B18] px-6 py-20 sm:px-10 ">
 
       <style>{`
         :root {
