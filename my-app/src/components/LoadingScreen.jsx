@@ -39,8 +39,8 @@ export default function LoadingScreen({ children }) {
         </div>
 
         <div className="text-center">
-          <p className="voxera-title text-2xl tracking-[0.28em] text-[#397bcc]">
-            VOXERA
+          <p className="voxera-title text-3xl  tracking-wider text-[#397bcc]">
+            V<span className='text-white'>OXERA</span>
           </p>
 
         </div>
