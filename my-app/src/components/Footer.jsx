@@ -184,7 +184,6 @@ export default function Footer() {
                 playsInline
                 alt=""
                 className="h-full w-full object-cover"
-                style={{ animation: 'vox-zoom 20s ease-in-out infinite alternate' }}
               />
               <div className="absolute inset-0 bg-gradient-to-r from-[#030B18]/70 via-transparent to-transparent" />
             </div>
