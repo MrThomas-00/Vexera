@@ -41,7 +41,6 @@ export default function Home() {
               </button>
               <button
                 onClick={() => {
-                  console.log('Scrolling to why-voxera')
                   document.getElementById('why-voxera')?.scrollIntoView({ behavior: 'smooth' })
                 }}
                 className="relative z-40 mt-3 rounded-full border-2 border-[#397bcc] bg-transparent px-8 py-3 font-medium text-[#397bcc] transition-colors hover:bg-[#397bcc]/10 hover:text-white"

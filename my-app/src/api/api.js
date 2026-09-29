@@ -1,12 +1,11 @@
-// Simple placeholder API helper using fetch
-const BASE_URL = '' // e.g. 'https://api.example.com'
+const API_URL = 'http://localhost/Voxera-vite/my-app/backend'
 
-export async function getJSON(path) {
-  const res = await fetch(BASE_URL + path)
-  if (!res.ok) throw new Error('Network response was not ok')
-  return res.json()
-}
+export async function getRanks() {
+  const response = await fetch(`${API_URL}/ranks.php`)
 
-export default {
-  getJSON,
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`)
+  }
+
+  return await response.json()
 }

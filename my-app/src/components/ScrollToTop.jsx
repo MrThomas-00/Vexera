@@ -7,17 +7,13 @@ export default function ScrollToTop() {
   useEffect(() => {
     window.history.scrollRestoration = 'manual'
 
-    const scroll = () => {
+    const timer = setTimeout(() => {
       window.scrollTo({
         top: 0,
         left: 0,
         behavior: 'smooth',
       })
-    }
-
-    scroll()
-
-    const timer = setTimeout(scroll, 100)
+    }, 150)
 
     return () => clearTimeout(timer)
   }, [pathname])

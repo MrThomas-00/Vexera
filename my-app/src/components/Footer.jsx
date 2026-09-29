@@ -246,6 +246,7 @@ export default function Footer() {
           <p dir="ltr" className="mt-auto hidden self-end pt-10 text-xs text-white/40 lg:block">
             © {year} Voxera. All rights reserved.
           </p>
+          
         </div>
 
         {/* ستون‌ها */}
