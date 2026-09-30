@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/Vexera',
   resolve: {
     dedupe: ['react', 'react-dom'],
   },
