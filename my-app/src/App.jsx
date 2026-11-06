@@ -61,7 +61,7 @@ function AppContent() {
 export default function App() {
   return (
     <LoadingScreen>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
         <SmoothScroll />
         <ScrollToTop />
         <AppContent />
