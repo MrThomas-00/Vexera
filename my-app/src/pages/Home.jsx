@@ -1,5 +1,6 @@
 import Button from '../components/Button'
-import HeroImg from '/Heros.png'
+
+const HeroImg = `${import.meta.env.BASE_URL}Heros.png`
 import MainSection from '../components/mainsection'
 import AboutSection from '../components/Aboutsection'
 import Ranks from '../components/Ranks'

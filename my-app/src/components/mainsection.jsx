@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
-import BedwarsImg from '/bedwars.jpg'
-import PracticeImg from '/practice.jpg'
-import RoleplayImg from '/roleplay.jpg'
-import SmpImg from '/smp.jpg'
+const { BASE_URL } = import.meta.env
+const BedwarsImg = `${BASE_URL}bedwars.jpg`
+const PracticeImg = `${BASE_URL}practice.jpg`
+const RoleplayImg = `${BASE_URL}roleplay.jpg`
+const SmpImg = `${BASE_URL}smp.jpg`
 
 const gameModes = [
   {

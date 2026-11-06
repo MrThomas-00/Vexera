@@ -177,7 +177,7 @@ export default function Footer() {
               style={{ clipPath: 'polygon(14% 0, 100% 0, 100% 100%, 0 100%)' }}
             >
               <video
-                src="/Footer.mp4"
+                src={`${import.meta.env.BASE_URL}Footer.mp4`}
                 muted
                 autoPlay
                 loop
