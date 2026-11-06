@@ -1,1 +1,0 @@
-import{t as e}from"./index-B4SQVcpt.js";var t=e();function n(){return(0,t.jsxs)(`main`,{className:`container mx-auto py-12`,children:[(0,t.jsx)(`h1`,{className:`text-3xl font-semibold mb-4`,children:`دانلود`}),(0,t.jsx)(`p`,{className:`text-gray-700`,children:`دانلود لانچر، مپ یا فایل‌های مورد نیاز.`})]})}export{n as default};

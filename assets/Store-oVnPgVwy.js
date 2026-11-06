@@ -1,1 +1,0 @@
-import{t as e}from"./index-B4SQVcpt.js";import{t}from"./Ranks-DS8oQqiP.js";var n=e();function r(){return(0,n.jsx)(`main`,{className:`container mx-auto py-12`,children:(0,n.jsx)(t,{})})}export{r as default};

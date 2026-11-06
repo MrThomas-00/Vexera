@@ -1,0 +1,1 @@
+import{t as e}from"./index-DBH-JIVc.js";import{t}from"./Ranks-eSAfwkFi.js";var n=e();function r(){return(0,n.jsx)(`main`,{className:`container mx-auto py-12`,children:(0,n.jsx)(t,{})})}export{r as default};
