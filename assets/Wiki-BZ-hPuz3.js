@@ -1,0 +1,1 @@
+import{t as e}from"./index-B4SQVcpt.js";var t=e();function n(){return(0,t.jsxs)(`main`,{className:`container mx-auto py-12`,children:[(0,t.jsx)(`h1`,{className:`text-3xl font-semibold mb-4`,children:`راهنما`}),(0,t.jsx)(`p`,{className:`text-gray-700`,children:`راهنما، سوالات متداول و مستندات سرور.`})]})}export{n as default};

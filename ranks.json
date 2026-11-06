@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Sword",
+    "slug": "sword",
+    "price": 49000,
+    "image": "/Vexera/ranks/sword.jpg",
+    "description": "شروع خوب برای بازیکنایی که می‌خوان یه قدم جلوتر باشن.",
+    "is_popular": false,
+    "tags": [
+      "کیت روزانه",
+      "تگ رنکی",
+      "خانه"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Knight",
+    "slug": "knight",
+    "price": 99000,
+    "image": "/Vexera/ranks/knight.jpg",
+    "description": "دسترسی به کیت‌های اختصاصی و امکانات ویژه‌ی بیشتر.",
+    "is_popular": false,
+    "tags": [
+      "کیت هفتگی",
+      "رنگ نام اختصاصی",
+      "/fly محدود",
+      "خانه 2"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "King",
+    "slug": "king",
+    "price": 199000,
+    "image": "/Vexera/ranks/king.jpg",
+    "description": "تجربه کامل ووکسرا با بیشترین امکانات و اولویت‌ها.",
+    "is_popular": true,
+    "tags": [
+      "کیت روزانه ویژه",
+      "/fly نامحدود",
+      "صندوقچه اختصاصی",
+      "اولویت ورود"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Legend",
+    "slug": "legend",
+    "price": 349000,
+    "image": "/Vexera/ranks/legend.jpg",
+    "description": "بالاترین سطح دسترسی برای بازیکنای حرفه‌ای ووکسرا.",
+    "is_popular": false,
+    "tags": []
+  }
+]
